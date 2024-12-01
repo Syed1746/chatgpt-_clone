@@ -1,0 +1,31 @@
+{
+    "name": "chat-gpt-clone",
+    "version": "1.0.0",
+    "description": "chat gpt clone",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Syed1746/chatgpt-_clone.git"
+    },
+    "author": "Syed Sameer",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Syed1746/chatgpt-_clone/issues"
+    },
+    "homepage": "https://github.com/Syed1746/chatgpt-_clone#readme",
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "colors": "^1.4.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.1",
+        "mongoose": "^8.8.3",
+        "morgan": "^1.10.0",
+        "nodemon": "^3.1.7"
+    }
+}
