@@ -4,8 +4,12 @@ const bodyParser = require('body-parser')
 const colors = require('colors')
 const cors = require('cors')
 const dotenv = require('dotenv')
+const connectDB = require('./config/db')
 
-dotenv.config()
+dotenv.config();
+//mongo connection
+connectDB();
+
 
 const app = express()
 
